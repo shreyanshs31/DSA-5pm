@@ -1,71 +1,40 @@
 Basic Level Problems
 Find the Minimum and Maximum Element in an Array
 Use a linear traversal to find min and max in 
-𝑂
-(
-𝑛
-)
-O(n).
+𝑂(𝑛)O(n).
 
 Array Reverse
 Reverse the array using two-pointer technique in 
-𝑂
-(
-𝑛
-)
-O(n).
+𝑂(𝑛)O(n).
 
 Write a Program to Cyclically Rotate an Array by One
 Store the last element, shift all other elements right, and set the first position to the stored element.
 
 Sort an Array
 Apply any sorting algorithm (Quick Sort, Merge Sort, etc., 
-𝑂
-(
-𝑛
-log
-⁡
-𝑛
-)
-O(nlogn)).
+𝑂(𝑛log𝑛)O(nlogn)).
 
 Find Duplicates in an Array
 Use a hashmap to track occurrences in 
-𝑂
-(
-𝑛
-)
-O(n).
+𝑂(𝑛)O(n).
 
 Find the Occurrence of an Integer in the Array
 Count occurrences using a hashmap or linear traversal.
 
 Sort the Array of 0s, 1s, and 2s
 Use the Dutch National Flag algorithm in 
-𝑂
-(
-𝑛
-)
-O(n).
+𝑂(𝑛)O(n).
 
 Move All the Negative Elements to One Side of the Array
 Use partitioning techniques to separate negatives in 
-𝑂
-(
-𝑛
-)
-O(n).
+𝑂(𝑛)O(n).
 
 Find the Row with a Maximum Number of 1’s
 Optimize using binary search on sorted rows.
 
 Majority Element
 Apply Moore's Voting Algorithm in 
-𝑂
-(
-𝑛
-)
-O(n).
+𝑂(𝑛)O(n).
 
 Wave Array
 Sort the array and swap adjacent elements for wave form.
@@ -76,39 +45,19 @@ Use an array to store digits and multiply iteratively.
 
 Find a Peak Element Which Is Not Smaller Than Its Neighbors
 Apply binary search in 
-𝑂
-(
-log
-⁡
-𝑛
-)
-O(logn).
+𝑂(log𝑛)O(logn).
 
 Find the Kth Largest and Kth Smallest Number in an Array
 Use the Quickselect algorithm in 
-𝑂
-(
-𝑛
-)
-O(n) average time.
+𝑂(𝑛)O(n) average time.
 
 Subarray with Given Sum
 Use a sliding window or hashmap for 
-𝑂
-(
-𝑛
-)
-O(n).
+𝑂(𝑛)O(n).
 
 Find Whether an Array is a Subset of Another Array
 Sort and merge 
-𝑂
-(
-𝑛
-log
-⁡
-𝑛
-)
+𝑂(𝑛log𝑛)
 O(nlogn) or use a hashmap.
 
 Find the Union and Intersection of Two Sorted Arrays
@@ -116,44 +65,20 @@ Use merge or two-pointer techniques.
 
 Find the Missing Integer
 Apply XOR or hashmap logic in 
-𝑂
-(
-𝑛
-)
-O(n).
+𝑂(𝑛)O(n).
 
 Count Pairs with the Given Sum
 Use a hashmap for 
-𝑂
-(
-𝑛
-)
-O(n).
+𝑂(𝑛)O(n).
 
 Sort an Array Using the Quicksort Algorithm
 Implement Quick Sort 
-𝑂
-(
-𝑛
-log
-⁡
-𝑛
-)
+𝑂(𝑛log𝑛)
 O(nlogn) average case.
 
 Find Common Elements in Three Sorted Arrays
 Use three pointers for 
-𝑂
-(
-𝑛
-1
-+
-𝑛
-2
-+
-𝑛
-3
-)
+𝑂(𝑛1+𝑛2+𝑛3)
 O(n1+n2+n3).
 
 Find the First Non-Repeating Element in a Given Array of Integers
@@ -170,11 +95,7 @@ Use a prefix sum with a hashmap.
 
 Find the Largest Sum Contiguous Subarray
 Apply Kadane's Algorithm in 
-𝑂
-(
-𝑛
-)
-O(n).
+𝑂(𝑛)O(n).
 
 Find Maximum Product Subarray
 Track max and min products.
@@ -184,46 +105,25 @@ Use a set and check neighbors.
 
 Find the Minimum Element in a Rotated and Sorted Array
 Use binary search 
-𝑂
-(
-log
-⁡
-𝑛
-)
-O(logn).
+𝑂(log𝑛)O(logn).
 
 Minimum Platforms
 Sort arrival and departure times.
 
 Minimize the Maximum Difference Between the Heights
 Greedy approach 
-𝑂
-(
-𝑛
-log
-⁡
-𝑛
-)
-O(nlogn).
+𝑂(𝑛log⁡𝑛)O(nlogn).
 
 Stock Span Problem
 Use a stack for 
-𝑂
-(
-𝑛
-)
-O(n).
+𝑂(𝑛)O(n).
 
 Find a Triplet That Sums to a Given Value
 Apply two-pointer technique.
 
 Smallest Positive Missing Number
 Use index-mapping or hash 
-𝑂
-(
-𝑛
-)
-O(n).
+𝑂(𝑛)O(n).
 
 Print the Matrix in a Spiral Manner
 Traverse in layers.
