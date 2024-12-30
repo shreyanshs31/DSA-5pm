@@ -1,0 +1,275 @@
+Basic Level Problems
+Find the Minimum and Maximum Element in an Array
+Use a linear traversal to find min and max in 
+𝑂
+(
+𝑛
+)
+O(n).
+
+Array Reverse
+Reverse the array using two-pointer technique in 
+𝑂
+(
+𝑛
+)
+O(n).
+
+Write a Program to Cyclically Rotate an Array by One
+Store the last element, shift all other elements right, and set the first position to the stored element.
+
+Sort an Array
+Apply any sorting algorithm (Quick Sort, Merge Sort, etc., 
+𝑂
+(
+𝑛
+log
+⁡
+𝑛
+)
+O(nlogn)).
+
+Find Duplicates in an Array
+Use a hashmap to track occurrences in 
+𝑂
+(
+𝑛
+)
+O(n).
+
+Find the Occurrence of an Integer in the Array
+Count occurrences using a hashmap or linear traversal.
+
+Sort the Array of 0s, 1s, and 2s
+Use the Dutch National Flag algorithm in 
+𝑂
+(
+𝑛
+)
+O(n).
+
+Move All the Negative Elements to One Side of the Array
+Use partitioning techniques to separate negatives in 
+𝑂
+(
+𝑛
+)
+O(n).
+
+Find the Row with a Maximum Number of 1’s
+Optimize using binary search on sorted rows.
+
+Majority Element
+Apply Moore's Voting Algorithm in 
+𝑂
+(
+𝑛
+)
+O(n).
+
+Wave Array
+Sort the array and swap adjacent elements for wave form.
+
+Intermediate Level Problems
+Find the Factorial of a Large Number
+Use an array to store digits and multiply iteratively.
+
+Find a Peak Element Which Is Not Smaller Than Its Neighbors
+Apply binary search in 
+𝑂
+(
+log
+⁡
+𝑛
+)
+O(logn).
+
+Find the Kth Largest and Kth Smallest Number in an Array
+Use the Quickselect algorithm in 
+𝑂
+(
+𝑛
+)
+O(n) average time.
+
+Subarray with Given Sum
+Use a sliding window or hashmap for 
+𝑂
+(
+𝑛
+)
+O(n).
+
+Find Whether an Array is a Subset of Another Array
+Sort and merge 
+𝑂
+(
+𝑛
+log
+⁡
+𝑛
+)
+O(nlogn) or use a hashmap.
+
+Find the Union and Intersection of Two Sorted Arrays
+Use merge or two-pointer techniques.
+
+Find the Missing Integer
+Apply XOR or hashmap logic in 
+𝑂
+(
+𝑛
+)
+O(n).
+
+Count Pairs with the Given Sum
+Use a hashmap for 
+𝑂
+(
+𝑛
+)
+O(n).
+
+Sort an Array Using the Quicksort Algorithm
+Implement Quick Sort 
+𝑂
+(
+𝑛
+log
+⁡
+𝑛
+)
+O(nlogn) average case.
+
+Find Common Elements in Three Sorted Arrays
+Use three pointers for 
+𝑂
+(
+𝑛
+1
++
+𝑛
+2
++
+𝑛
+3
+)
+O(n1+n2+n3).
+
+Find the First Non-Repeating Element in a Given Array of Integers
+Track frequencies with a hashmap.
+
+Subarrays with Equal 1s and 0s
+Replace 0s with -1 and find subarrays with sum 0.
+
+Rearrange the Array in Alternating Positive and Negative Items
+Use a partitioning approach.
+
+Find if There is Any Subarray with a Sum Equal to Zero
+Use a prefix sum with a hashmap.
+
+Find the Largest Sum Contiguous Subarray
+Apply Kadane's Algorithm in 
+𝑂
+(
+𝑛
+)
+O(n).
+
+Find Maximum Product Subarray
+Track max and min products.
+
+Find the Longest Consecutive Subsequence
+Use a set and check neighbors.
+
+Find the Minimum Element in a Rotated and Sorted Array
+Use binary search 
+𝑂
+(
+log
+⁡
+𝑛
+)
+O(logn).
+
+Minimum Platforms
+Sort arrival and departure times.
+
+Minimize the Maximum Difference Between the Heights
+Greedy approach 
+𝑂
+(
+𝑛
+log
+⁡
+𝑛
+)
+O(nlogn).
+
+Stock Span Problem
+Use a stack for 
+𝑂
+(
+𝑛
+)
+O(n).
+
+Find a Triplet That Sums to a Given Value
+Apply two-pointer technique.
+
+Smallest Positive Missing Number
+Use index-mapping or hash 
+𝑂
+(
+𝑛
+)
+O(n).
+
+Print the Matrix in a Spiral Manner
+Traverse in layers.
+
+Implement Two Stacks in an Array
+Use pointers for each stack.
+
+Maximum Index
+Use auxiliary arrays.
+
+Max Sum Path in Two Arrays
+Combine sum traversal.
+
+Find Missing And Repeating
+Use XOR or hashing.
+
+Stock Buy and Sell Problem
+Use valley-peak approach.
+
+Pair with the Given Sum in a Sorted Array
+Use two-pointer technique.
+
+Chocolate Distribution Problem
+Sort and find minimal range.
+
+Longest Alternating Subsequence
+Dynamic programming.
+
+Advanced Level Problems
+Trapping Rainwater
+Use two-pointer or dynamic programming.
+
+Coin Change Problem
+Dynamic programming with subproblems.
+
+First Missing Positive Number
+Index mapping or in-place marking.
+
+Max Sum in the Configuration
+Rotate array sum technique.
+
+Partition Equal Subset Sum
+Apply DP subset sum approach.
+
+Smallest Positive Integer That Can’t Be Represented as a Sum
+Greedy addition.
+
+Minimum Number of Jumps to Reach the End
+Dynamic programming or greedy.
