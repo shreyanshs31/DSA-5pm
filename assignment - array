@@ -1,14 +1,4 @@
-Basic Level Problems
-Find the Minimum and Maximum Element in an Array
-Use a linear traversal to find min and max in 
-𝑂(𝑛)O(n).
 
-Array Reverse
-Reverse the array using two-pointer technique in 
-𝑂(𝑛)O(n).
-
-Write a Program to Cyclically Rotate an Array by One
-Store the last element, shift all other elements right, and set the first position to the stored element.
 
 Sort an Array
 Apply any sorting algorithm (Quick Sort, Merge Sort, etc., 
@@ -17,9 +7,6 @@ Apply any sorting algorithm (Quick Sort, Merge Sort, etc.,
 Find Duplicates in an Array
 Use a hashmap to track occurrences in 
 𝑂(𝑛)O(n).
-
-Find the Occurrence of an Integer in the Array
-Count occurrences using a hashmap or linear traversal.
 
 Sort the Array of 0s, 1s, and 2s
 Use the Dutch National Flag algorithm in 
@@ -35,13 +22,6 @@ Optimize using binary search on sorted rows.
 Majority Element
 Apply Moore's Voting Algorithm in 
 𝑂(𝑛)O(n).
-
-Wave Array
-Sort the array and swap adjacent elements for wave form.
-
-Intermediate Level Problems
-Find the Factorial of a Large Number
-Use an array to store digits and multiply iteratively.
 
 Find a Peak Element Which Is Not Smaller Than Its Neighbors
 Apply binary search in 
