@@ -40,9 +40,6 @@ Sort and merge
 𝑂(𝑛log𝑛)
 O(nlogn) or use a hashmap.
 
-Find the Union and Intersection of Two Sorted Arrays
-Use merge or two-pointer techniques.
-
 Find the Missing Integer
 Apply XOR or hashmap logic in 
 𝑂(𝑛)O(n).
