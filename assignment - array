@@ -40,10 +40,6 @@ Sort and merge
 𝑂(𝑛log𝑛)
 O(nlogn) or use a hashmap.
 
-Find the Missing Integer
-Apply XOR or hashmap logic in 
-𝑂(𝑛)O(n).
-
 Count Pairs with the Given Sum
 Use a hashmap for 
 𝑂(𝑛)O(n).
@@ -52,11 +48,6 @@ Sort an Array Using the Quicksort Algorithm
 Implement Quick Sort 
 𝑂(𝑛log𝑛)
 O(nlogn) average case.
-
-Find Common Elements in Three Sorted Arrays
-Use three pointers for 
-𝑂(𝑛1+𝑛2+𝑛3)
-O(n1+n2+n3).
 
 Find the First Non-Repeating Element in a Given Array of Integers
 Track frequencies with a hashmap.
@@ -73,9 +64,6 @@ Use a prefix sum with a hashmap.
 Find the Largest Sum Contiguous Subarray
 Apply Kadane's Algorithm in 
 𝑂(𝑛)O(n).
-
-Find Maximum Product Subarray
-Track max and min products.
 
 Find the Longest Consecutive Subsequence
 Use a set and check neighbors.
